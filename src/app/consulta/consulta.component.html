@@ -1,0 +1,41 @@
+<div class="container custom-container-2">
+    <!-- Se muestra cuando no existen empleados -->
+    <div class="no-data text-center">
+        <button class="btn btn-outline-primary" routerLink="/creacion">Crear Serie TV</button>
+    </div>
+    <!-- Tabla de empleados, se oculta cuando no existen registros -->
+    <div *ngIf="seriesTV.length !== 0">
+        <h3 class="mb-3 text-center">Lista de empleados</h3>
+        <div class="col-md-12">
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th scope="col">Id serieTV</th>
+                        <th scope="col">Nombre</th>
+                        <th scope="col">Año de emision</th>
+                        <th scope="col">Años al aire</th>
+                        <th scope="col">Clasifiacion</th>
+                        <th scope="col">Genero</th>
+                        <th scope="col">Creador</th>
+                        <th scope="col">Opciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let serieTV of seriesTV">
+                        <td>{{serieTV.id}}</td>
+                        <td>{{serieTV.nombre}}</td>
+                        <td>{{serieTV.anio_emision}}</td>
+                        <td>{{serieTV.anios_al_aire}}</td>
+                        <td>{{serieTV.clasificacion}}</td>
+                        <td>{{serieTV.genero}}</td>
+                        <td>{{serieTV.creador}}</td>
+                        <td>
+                            <span class="edit" routerLink="/edicion/{{serieTV.id}}">Editar</span>
+                            <span class="delete">Eliminar</span>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
