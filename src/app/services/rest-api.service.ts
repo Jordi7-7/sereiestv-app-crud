@@ -38,4 +38,39 @@ export class RestApiService {
         catchError(this.handleError)
       )
   }
+
+  // HttpClient API delete() method => delete serieTV
+  deleteSerieTV(id: any) {
+    return this.http.delete<SerieTV>(this.apiURL + '/seriesTV/' + id, this.httpOptions)
+      .pipe(
+        retry(1),
+        catchError(this.handleError)
+      )
+  }
+
+  // HttpClient API post() method => Crear serieTV
+  createSerieTV(serieTV: any): Observable<SerieTV> {
+    return this.http.post<SerieTV>(this.apiURL + '/seriesTV', JSON.stringify(serieTV), this.httpOptions)
+      .pipe(
+        retry(1),
+        catchError(this.handleError)
+      )
+  }
+
+  // HttpClient API get() method => Consulta una serieTV
+  getSerieTV(id: string): Observable<SerieTV> {
+    return this.http.get<SerieTV>(this.apiURL + '/seriesTV/' + id)
+      .pipe(
+        retry(1),
+        catchError(this.handleError)
+      )
+  }
+  // HttpClient API put() method => Actualiza una serieTV
+  updateSerieTV(id: string, serieTV: any): Observable<SerieTV> {
+    return this.http.put<SerieTV>(this.apiURL + '/seriesTV/' + id, JSON.stringify(serieTV), this.httpOptions)
+      .pipe(
+        retry(1),
+        catchError(this.handleError)
+      )
+  }
 }

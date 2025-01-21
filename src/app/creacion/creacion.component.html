@@ -1,0 +1,35 @@
+<div class="row justify-content-center mt-5">
+    <div class="col-md-4">
+        <form [formGroup]="serieTVForm" (ngSubmit)="createSerieTV()">
+            <div class="form-group">
+                <label>Nombre</label>
+                <input class="form-control" type="text" formControlName="nombre" required />
+            </div>
+            <div class="form-group">
+                <label>Año de emision</label>
+                <input class="form-control" type="number" formControlName="anio_emision" required />
+            </div>
+            <div class="form-group">
+                <label>Años al aire</label>
+                <input class="form-control" type="number" formControlName="anios_al_aire" required />
+            </div>
+            <div class="form-group">
+                <label>Clasificacion</label>
+                <input class="form-control" type="text" formControlName="clasificacion" required />
+            </div>
+            <div class="form-group">
+                <label>Genero</label>
+                <input class="form-control" type="text" formControlName="genero" required />
+            </div>
+            <div class="form-group">
+                <label>Creador</label>
+                <input class="form-control" type="text" formControlName="creador" required />
+            </div>
+            <div class="form-group">
+                <button class="btn btn-primary btn-block" type="submit">
+                    Crear serie de TV
+                </button>
+            </div>
+        </form>
+    </div>
+</div>

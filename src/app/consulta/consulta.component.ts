@@ -17,10 +17,19 @@ export class ConsultaComponent implements OnInit {
   ngOnInit(): void {
     this.getSeriesTV()
   }
-  //Obtener la lista de empleados:
+  //Obtener la lista de series de TV:
   getSeriesTV() {
     return this.restApi.getSeriesTV().subscribe((data: {}) => {
       this.seriesTV = data;
     })
+  }
+
+  // Borrar una sere de TV
+  deleteSerieTV(id: any) {
+    if (window.confirm('Está seguro que desea eliminar el dato?')) {
+      this.restApi.deleteSerieTV(id).subscribe(data => {
+        this.getSeriesTV()
+      })
+    }
   }
 } 

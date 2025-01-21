@@ -1,95 +1,103 @@
 {
-    "seriesTV": [
-      {
-        "id": 1,
-        "nombre": "Breaking Bad",
-        "anio_emision": 2008,
-        "anios_al_aire": 5,
-        "clasificacion": "TV-MA",
-        "genero": "Drama",
-        "creador": "Vince Gilligan"
-      },
-      {
-        "id": 2,
-        "nombre": "Friends",
-        "anio_emision": 1994,
-        "anios_al_aire": 10,
-        "clasificacion": "TV-14",
-        "genero": "Comedia",
-        "creador": "David Crane"
-      },
-      {
-        "id": 3,
-        "nombre": "Game of Thrones",
-        "anio_emision": 2011,
-        "anios_al_aire": 8,
-        "clasificacion": "TV-MA",
-        "genero": "Fantasía",
-        "creador": "David Benioff"
-      },
-      {
-        "id": 4,
-        "nombre": "The Office",
-        "anio_emision": 2005,
-        "anios_al_aire": 9,
-        "clasificacion": "TV-14",
-        "genero": "Comedia",
-        "creador": "Greg Daniels"
-      },
-      {
-        "id": 5,
-        "nombre": "Stranger Things",
-        "anio_emision": 2016,
-        "anios_al_aire": 4,
-        "clasificacion": "TV-14",
-        "genero": "Ciencia ficción",
-        "creador": "Matt Duffer"
-      },
-      {
-        "id": 6,
-        "nombre": "The Simpsons",
-        "anio_emision": 1989,
-        "anios_al_aire": 34,
-        "clasificacion": "TV-PG",
-        "genero": "Animación",
-        "creador": "Matt Groening"
-      },
-      {
-        "id": 7,
-        "nombre": "Sherlock",
-        "anio_emision": 2010,
-        "anios_al_aire": 4,
-        "clasificacion": "TV-14",
-        "genero": "Misterio",
-        "creador": "Steven Moffat"
-      },
-      {
-        "id": 8,
-        "nombre": "The Crown",
-        "anio_emision": 2016,
-        "anios_al_aire": 5,
-        "clasificacion": "TV-MA",
-        "genero": "Historia",
-        "creador": "Peter Morgan"
-      },
-      {
-        "id": 9,
-        "nombre": "The Mandalorian",
-        "anio_emision": 2019,
-        "anios_al_aire": 3,
-        "clasificacion": "TV-14",
-        "genero": "Aventura",
-        "creador": "Jon Favreau"
-      },
-      {
-        "id": 10,
-        "nombre": "House of Cards",
-        "anio_emision": 2013,
-        "anios_al_aire": 6,
-        "clasificacion": "TV-MA",
-        "genero": "Drama político",
-        "creador": "Beau Willimon"
-      }
-    ]
-  }
-  
+  "seriesTV": [
+    {
+      "id": "1",
+      "nombre": "Breaking Bad",
+      "anio_emision": 2008,
+      "anios_al_aire": 5,
+      "clasificacion": "TV-MA",
+      "genero": "Drama",
+      "creador": "Vince Gilligan"
+    },
+    {
+      "id": "2",
+      "nombre": "Friends",
+      "anio_emision": 1994,
+      "anios_al_aire": 10,
+      "clasificacion": "TV-14",
+      "genero": "Comedia",
+      "creador": "David Crane"
+    },
+    {
+      "id": "3",
+      "nombre": "Game of Thrones",
+      "anio_emision": 2011,
+      "anios_al_aire": 8,
+      "clasificacion": "TV-MA",
+      "genero": "Fantasía",
+      "creador": "David Benioff"
+    },
+    {
+      "id": "4",
+      "nombre": "The Office",
+      "anio_emision": 2005,
+      "anios_al_aire": 9,
+      "clasificacion": "TV-14",
+      "genero": "Comedia",
+      "creador": "Greg Daniels"
+    },
+    {
+      "id": "5",
+      "nombre": "Stranger Things",
+      "anio_emision": 2016,
+      "anios_al_aire": 4,
+      "clasificacion": "TV-14",
+      "genero": "Ciencia ficción",
+      "creador": "Matt Duffer"
+    },
+    {
+      "id": "6",
+      "nombre": "The Simpsons",
+      "anio_emision": 1989,
+      "anios_al_aire": 34,
+      "clasificacion": "TV-PG",
+      "genero": "Animación",
+      "creador": "Matt Groening"
+    },
+    {
+      "id": "7",
+      "nombre": "Sherlock",
+      "anio_emision": 2010,
+      "anios_al_aire": 4,
+      "clasificacion": "TV-14",
+      "genero": "Misterio",
+      "creador": "Steven Moffat"
+    },
+    {
+      "id": "8",
+      "nombre": "The Crown",
+      "anio_emision": 2016,
+      "anios_al_aire": 5,
+      "clasificacion": "TV-MA",
+      "genero": "Historia",
+      "creador": "Peter Morgan"
+    },
+    {
+      "id": "9",
+      "nombre": "The Mandalorian",
+      "anio_emision": 2019,
+      "anios_al_aire": 3,
+      "clasificacion": "TV-14",
+      "genero": "Aventura",
+      "creador": "Jon Favreau"
+    },
+    {
+      "id": "10",
+      "nombre": "House of Cards",
+      "anio_emision": 2013,
+      "anios_al_aire": 6,
+      "clasificacion": "TV-MA",
+      "genero": "Drama político",
+      "creador": "Beau Willimon"
+    },
+    {
+      "id": "ba95",
+      "nombre": "ndasjn",
+      "anio_emision": 2,
+      "anios_al_aire": 23,
+      "clasificacion": "kmkm",
+      "genero": " knkjn",
+      "creador": "kjnkj"
+    }
+  ]
+}
